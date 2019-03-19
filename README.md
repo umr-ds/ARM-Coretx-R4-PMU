@@ -1,4 +1,4 @@
-# ARM-Coretx-R4-PMU
+# ARM Coretx R4 PMU Helper
 A file containing some helpers to enable/disbale the and interact with the
 
 ## Intro
