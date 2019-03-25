@@ -69,7 +69,7 @@ performance_monitor_stop(void)
 
 // Get the value from the first performance register
 __attribute__((naked))
-int
+unsigned int
 performance_monitor_read_counter_0(void)
 {
 	asm(
@@ -82,7 +82,7 @@ performance_monitor_read_counter_0(void)
 
 // Get the value from the second performance register
 __attribute__((naked))
-int
+unsigned int
 performance_monitor_read_counter_1(void)
 {
 	asm(
@@ -95,7 +95,7 @@ performance_monitor_read_counter_1(void)
 
 // Get the value from the third performance register
 __attribute__((naked))
-int
+unsigned int
 performance_monitor_read_counter_2(void)
 {
 	asm(
@@ -108,7 +108,7 @@ performance_monitor_read_counter_2(void)
 
 // Get the value from cycle count register
 __attribute__((naked))
-int
+unsigned int
 performance_monitor_read_cycle_count(void)
 {
 	asm(
